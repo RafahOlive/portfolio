@@ -8,27 +8,27 @@ import { Projects } from "../../pages/Projects";
 import { useState } from "react";
 
 export function Header() {
-    const [about, setAbout] = useState(false);
-    const [experience, setExperience] = useState(false);
-    const [projects, setProjects] = useState(false);
+  const [about, setAbout] = useState(false);
+  const [experience, setExperience] = useState(false);
+  const [projects, setProjects] = useState(false);
 
-    function handelSetAbout() {
-        setAbout(true)
-        setExperience(false)
-        setProjects(false)
-    }
-    
-    function handleSetExperience() {
-        setAbout(false)
-        setExperience(true)
-        setProjects(false)
-    }
+  function handelSetAbout() {
+    setAbout(true);
+    setExperience(false);
+    setProjects(false);
+  }
 
-    function handleSetProjects() {
-        setAbout(false)
-        setExperience(false)
-        setProjects(true)
-    }
+  function handleSetExperience() {
+    setAbout(false);
+    setExperience(true);
+    setProjects(false);
+  }
+
+  function handleSetProjects() {
+    setAbout(false);
+    setExperience(false);
+    setProjects(true);
+  }
   return (
     <div className="main">
       <div className="header">
@@ -44,11 +44,11 @@ export function Header() {
         </div>
         <div className="header_socialMedia">
           <a href="https://www.linkedin.com/in/rafaelribeirodev/">
-            <GithubLogo size={24} />
+            <LinkedinLogo size={24} />
           </a>
 
-          <a href="https://github.com/RaffahOlive/">
-            <LinkedinLogo size={24} />
+          <a href="https://github.com/RafahOlive">
+            <GithubLogo size={24} />
           </a>
         </div>
       </div>
@@ -56,7 +56,6 @@ export function Header() {
         {about && <About />}
         {experience && <Experience />}
         {projects && <Projects />}
-        
       </div>
     </div>
   );

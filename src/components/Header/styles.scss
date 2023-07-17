@@ -29,10 +29,31 @@
 
     margin-top: 5rem;
 
-    a{
+    button{
+        width: 100px;
+        height: 30px;
+
+        background: none;
+        border: none;
+        cursor: pointer;
+
+        font-family: 'IBM Plex Sans';
+        font-size: medium;
         color: #64748B;
+        text-align: left;
 
         margin-top: 1rem;
+
+        transition: .1s;
+    }
+
+    button:hover{
+        background: none;
+        
+        color: #ffffff;
+
+        font-size: large;
+
     }
  }
 
@@ -44,6 +65,12 @@
 
         margin-top: 1rem;
         margin-right: 1rem;
+
+        transition: .1s;
+    }
+
+    a:hover{
+        color: #ffffff;
     }
  }
 
