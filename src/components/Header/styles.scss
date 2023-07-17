@@ -1,0 +1,56 @@
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    width: 528px;
+    height: 765px;
+
+    margin-left: 12rem;
+    margin-top: 5.7rem;
+
+    h1,
+    h2 {
+        color: #E2E8F0;
+    }
+
+    h2 {
+        padding-top: 12px;
+    }
+
+    p {
+        padding-top: 16px;
+    }
+}
+ .header_menu{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 5rem;
+
+    a{
+        color: #64748B;
+
+        margin-top: 1rem;
+    }
+ }
+
+ .header_socialMedia{
+    margin-top: 10rem;
+
+    a{
+        color: #64748B;
+
+        margin-top: 1rem;
+        margin-right: 1rem;
+    }
+ }
+
+.right-side {
+    width: 528px;
+    height: 100%;
+
+    margin-right: 12rem;
+    margin-top: 5.7rem;
+}
