@@ -12,7 +12,11 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@phosphor-icons/react": "^2.0.10",
+    "phosphor-icons": "^1.4.2",
     "react": "^18.2.0",
+    "react-awesome-reveal": "^4.2.5",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {

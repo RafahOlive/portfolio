@@ -1,11 +1,11 @@
 import "./styles.scss";
 
-import { GithubLogo, LinkedinLogo } from "@phosphor-icons/react";
-
 import { About } from "../../pages/About";
 import { Experience } from "../../pages/Experience";
 import { Projects } from "../../pages/Projects";
 import { useState } from "react";
+import { Slide } from "react-awesome-reveal";
+import { GithubLogo, LinkedinLogo } from "@phosphor-icons/react";
 
 export function Header() {
   const [about, setAbout] = useState(false);
@@ -52,11 +52,14 @@ export function Header() {
           </a>
         </div>
       </div>
-      <div className="right-side">
-        {about && <About />}
-        {experience && <Experience />}
-        {projects && <Projects />}
-      </div>
+      
+        <div className="right-side">
+        <Slide direction="right" duration={1000}>
+          {about && <About />}
+          {experience && <Experience />}
+          {projects && <Projects />}
+          </Slide>
+        </div>
     </div>
   );
 }
