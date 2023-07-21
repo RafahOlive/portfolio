@@ -4,7 +4,7 @@ import { About } from "../../pages/About";
 import { Experience } from "../../pages/Experience";
 import { Projects } from "../../pages/Projects";
 import { useState } from "react";
-import { Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import { GithubLogo, LinkedinLogo } from "@phosphor-icons/react";
 
 export function Header() {
@@ -57,11 +57,11 @@ export function Header() {
       </div>
 
       <div className="right-side">
-        {/* <Slide direction="right" duration={1000}> */}
+        <Fade duration={1000}>
           {about && <About />}
           {experience && <Experience />}
           {projects && <Projects />}
-        {/* </Slide> */}
+        </Fade>
       </div>
     </div>
   );
