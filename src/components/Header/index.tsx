@@ -57,11 +57,11 @@ export function Header() {
       </div>
 
       <div className="right-side">
-        <Slide direction="right" duration={1000}>
+        {/* <Slide direction="right" duration={1000}> */}
           {about && <About />}
           {experience && <Experience />}
           {projects && <Projects />}
-        </Slide>
+        {/* </Slide> */}
       </div>
     </div>
   );
