@@ -61,10 +61,25 @@
     color: #5EE9D3;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 481px) {
 
     .box{
-        width: 528px;
+        width: auto;
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box-img{
+        background: #cda2a2;
+    
+        margin-top: 1rem;
+        margin-left: 0;
+        margin-right: 0;
+    
+        width: 120px;
+        height: 68.9px;
     }
 
 }
