@@ -1,13 +1,16 @@
 .main {
     display: flex;
     flex-direction: row;
+
+    justify-content: center;
+
+    padding: 1rem;
 }
 
 .header {
     width: 528px;
-    height: 765px;
+    height: 100%;
 
-    margin-left: 12rem;
     margin-top: 5.7rem;
 
     h1,
@@ -79,9 +82,9 @@
     width: 528px;
     height: 100%;
 
-    margin-right: 12rem;
     margin-top: 5.7rem;
 }
+
 
 @media screen and (max-width: 600px) {
     .main {
@@ -90,7 +93,7 @@
     }
 
     .header {
-        width: 528px;
+        width: 480px;
         height: auto;
 
         margin-left: 1rem;
@@ -98,10 +101,21 @@
     }
 
     .header_menu {
-        // display: flex;
-        // flex-direction: column;
+        display: flex;
+        flex-direction: row;
+
+        justify-content: left;
 
         margin-top: 2rem;
+
+        button {
+            width: auto;
+            height: 30px;
+        }
+
+        button:not(:first-child){
+            margin-left: 1rem;
+        }
     }
 
     .header_socialMedia {
