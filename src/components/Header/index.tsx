@@ -1,11 +1,10 @@
-import "./styles.scss";
-
 import { About } from "../../pages/About";
 import { Experience } from "../../pages/Experience";
 import { Projects } from "../../pages/Projects";
 import { useState } from "react";
 import { Fade } from "react-awesome-reveal";
 import { GithubLogo, LinkedinLogo } from "@phosphor-icons/react";
+import { HeaderContainer, HeaderMenu, HomeContainer, RightSide, SocialMedia } from "./styles";
 
 export function Header() {
   const [about, setAbout] = useState(false);
@@ -30,19 +29,17 @@ export function Header() {
     setProjects(true);
   }
   return (
-    <div className="main">
-      <div className="header">
-        <div className="header_intro">
+    <HomeContainer>
+      <HeaderContainer>
           <h1>Rafael Ribeiro</h1>
           <h2>Desenvolvedor Frontend e Engenheiro de Software</h2>
           <p>Crio sites responsivos, soluções web e alguns jogos 🎮</p>
-        </div>
-        <div className="header_menu">
+        <HeaderMenu>
           <button onClick={handelSetAbout}>Sobre</button>
           <button onClick={handleSetExperience}>Experiência</button>
           <button onClick={handleSetProjects}>Projetos</button>
-        </div>
-        <div className="header_socialMedia">
+        </HeaderMenu>
+        <SocialMedia>
           <a
             href="https://www.linkedin.com/in/rafaelribeirodev/"
             target="_blank"
@@ -53,16 +50,16 @@ export function Header() {
           <a href="https://github.com/RafahOlive" target="_blank">
             <GithubLogo size={24} />
           </a>
-        </div>
-      </div>
+        </SocialMedia>
+      </HeaderContainer>
 
-      <div className="right-side">
+      <RightSide>
         <Fade duration={1000}>
           {about && <About />}
           {experience && <Experience />}
           {projects && <Projects />}
         </Fade>
-      </div>
-    </div>
+      </RightSide>
+    </HomeContainer>
   );
 }
