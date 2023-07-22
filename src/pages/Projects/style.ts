@@ -10,6 +10,8 @@ export const MainBox = styled.div`
   display: flex;
   flex-direction: row;
 
+  cursor: pointer;
+
   transition: 0.3s;
 
   &:hover {
@@ -19,6 +21,8 @@ export const MainBox = styled.div`
   @media ${devices.mobileL} {
     width: auto;
     height: auto;
+
+    padding: 1rem 1rem 1rem 0;
 
     display: flex;
     flex-direction: column;
@@ -35,6 +39,11 @@ export const ImageBox = styled.div`
 
   width: 120px;
   height: 68.9px;
+
+  img{
+    width: 120px;
+    height: 68.9px;
+  }
 
   @media ${devices.mobileL} {
     background: #cda2a2;
