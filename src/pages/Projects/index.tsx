@@ -1,20 +1,13 @@
-import { BubbleTechs, ImageBox, MainBox, TechBox, TextBox } from "./style";
+import { ProjectBox } from "../../components/ProjectBox";
 import todo from "../../assets/todo.png"
 export function Projects() {
   return (
-    <a href="https://rafaholive.github.io/todo-list-react/" target="_blank">
-      <MainBox>
-        <ImageBox>
-          <img src={todo} sizes="16px" alt="" />
-        </ImageBox>
-        <TextBox>
-          <h3>Lista de tarefas</h3>
-          <p>Aplicativo que armazena as tarefas do seu dia a dia.</p>
-          <TechBox>
-            <BubbleTechs>React Native</BubbleTechs>
-          </TechBox>
-        </TextBox>
-      </MainBox>
-    </a>
+    <ProjectBox
+      title="Lista de tarefas"
+      description="Aplicativo que armazena suas tarefas diárias"
+      link="https://rafaholive.github.io/todo-list-react/"
+      github="https://github.com/RafahOlive/todo-list-react"
+      img={todo}
+    />
   );
 }
