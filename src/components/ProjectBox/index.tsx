@@ -1,4 +1,4 @@
-import { BubbleTechs, ImageBox, MainBox, TechBox, TextBox } from "./style";
+import { BubbleTechs, ImageBox, LinkBox, MainBox, TechBox, TextBox } from "./style";
 
 type ProjectBoxProps = {
   title: string;
@@ -17,15 +17,17 @@ export function ProjectBox(props: ProjectBoxProps) {
       <TextBox>
         <h3>{props.title}</h3>
         <p>{props.description}</p>
+        <LinkBox>
+          <a href={props.link} target="_blank">
+            Projeto
+          </a>
+          <a href={props.github} target="_blank">
+            Repositorio
+          </a>
+        </LinkBox>
         <TechBox>
           <BubbleTechs>React Native</BubbleTechs>
         </TechBox>
-        <a href={props.link} target="_blank">
-          Link para o projeto
-        </a>
-        <a href={props.github} target="_blank">
-          Repositorio do projeto
-        </a>
       </TextBox>
     </MainBox>
   );
