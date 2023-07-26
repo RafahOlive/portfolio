@@ -17,6 +17,8 @@ body {
 
 a{
   text-decoration: none;
+  color: #94a3b8;
+  font-weight: bold;
 }
 
 p{
@@ -25,12 +27,4 @@ p{
 }
 
 
-`
-
-
-
-
-
-
-
-
+`;
