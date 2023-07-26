@@ -1,4 +1,4 @@
-import { BubbleTechs } from "./style";
+import { BubbleTechs } from "./styles";
 
 type TechBubbleProps = {
   name: string;

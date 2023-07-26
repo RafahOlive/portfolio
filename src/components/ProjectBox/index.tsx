@@ -1,5 +1,5 @@
 import { TechBubble } from "../TechBubble";
-import { ImageBox, LinkBox, MainBox, TechBox, TextBox } from "./style";
+import { ImageBox, LinkBox, MainBox, TechBox, TextBox } from "./styles";
 
 type ProjectBoxProps = {
   title: string;

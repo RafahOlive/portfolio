@@ -1,4 +1,4 @@
-import { Data, MainContainer, Text } from "./style"
+import { Data, MainContainer, Text } from "./styles"
 
 export function Experience() {
     return (

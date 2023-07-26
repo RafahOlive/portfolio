@@ -1,4 +1,4 @@
-import { Paragraph } from "./style";
+import { Paragraph } from "./styles";
 
 export function About() {
   return (
