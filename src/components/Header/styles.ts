@@ -6,7 +6,7 @@ export const HomeContainer = styled.main`
   flex-direction: row;
   justify-content: center;
 
-  padding: 1rem;
+  padding: 0 1rem;
 
   @media ${devices.mobileL} {
     display: flex;

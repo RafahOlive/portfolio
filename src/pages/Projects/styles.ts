@@ -1,11 +1,17 @@
 import { styled } from "styled-components";
 import { devices } from "../../objects/sizes";
 
+export const Container = styled.div`
+display: flex;
+flex-direction: column;
+gap: 2rem;
+`
+
 export const MainBox = styled.div`
   width: 576px;
   height: auto;
 
-  padding: 1rem;
+  padding: 1rem ;
 
   border-radius: 5px;
 
