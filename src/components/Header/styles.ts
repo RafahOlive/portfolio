@@ -2,24 +2,27 @@ import styled from "styled-components";
 import { devices } from "../../objects/sizes";
 
 export const HomeContainer = styled.main`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  margin-top: 5.7rem;
 
-  padding: 0 1rem;
+  padding: 0 10rem;
 
   @media ${devices.mobileL} {
     display: flex;
     flex-direction: column;
-    padding: 3rem;
+    gap: 3rem;
+
+    margin-top: 3rem;
+
+    padding: 0 2rem;
+
   }
 `;
 
 export const HeaderContainer = styled.header`
+  position: fixed;
+
   width: 33rem;
   height: auto;
-
-  margin-top: 5.7rem;
 
   h1,
   h2 {
@@ -35,7 +38,8 @@ export const HeaderContainer = styled.header`
   }
 
   @media ${devices.mobileL} {
-    width: 100%;
+    position: relative;
+    width: auto;
     height: auto;
 
     margin-top: auto;
@@ -80,7 +84,7 @@ export const HeaderMenu = styled.div`
 
     justify-content: left;
 
-    margin-top: 2rem;
+    margin-top: 1rem;
 
     button {
       width: auto;
@@ -110,16 +114,23 @@ export const SocialMedia = styled.div`
   }
 
   @media ${devices.mobileL} {
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
 `;
 export const RightSide = styled.div`
-  width: 528px;
+  width: 33rem;
   height: auto;
-  margin-top: 5.7rem;
+
+  margin-left: auto;
+
+  /* testes */
+  /* border: 1px solid pink;
+  background: white; */
 
   @media ${devices.mobileL} {
     width: auto;
     height: auto;
+
+    margin-left: 0;
   }
 `;

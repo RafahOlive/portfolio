@@ -46,7 +46,7 @@ export function Projects() {
 
       <MainBox>
         <ImageBox>
-          <img src="#" sizes="16px" alt="E-commerce" />
+          <img src={todo} sizes="16px" alt="E-commerce" />
         </ImageBox>
         <TextBox>
           <h3>E-Commerce</h3>
@@ -68,9 +68,10 @@ export function Projects() {
           <TechBox>
             <TechBubble name="React" />
             <TechBubble name="Typescript" />
+            <TechBubble name="Stiches" />
             <TechBubble name="Nextjs" />
             <TechBubble name="Stripe" />
-            <TechBubble name="Stiches" />
+            <TechBubble name="Axios" />
           </TechBox>
         </TextBox>
       </MainBox>

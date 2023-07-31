@@ -8,9 +8,6 @@ gap: 2rem;
 `
 
 export const MainBox = styled.div`
-  width: 576px;
-  height: auto;
-
   padding: 1rem ;
 
   border-radius: 5px;
@@ -22,13 +19,11 @@ export const MainBox = styled.div`
 
   &:hover {
     box-shadow: 1px 1px 10px white;
-    /* background: rgba(93, 104, 131, 0.1); */
-    /* border: 1px solid rgba(255, 255, 255, 0.1); */
   }
 
   @media ${devices.mobileL} {
-    width: auto;
-    height: auto;
+    /* width: auto;
+    height: auto; */
 
     display: flex;
     flex-direction: column;
@@ -82,6 +77,8 @@ export const TechBox = styled.div`
   display: flex;
   flex-direction: row;
   gap: 10px;
+  flex-wrap: wrap;
+
 `;
 
 
