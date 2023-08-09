@@ -21,7 +21,7 @@ export const MainBox = styled.div`
     box-shadow: 1px 1px 10px white;
   }
 
-  @media ${devices.mobileL} {
+  @media ${devices.extraSmall} {
     /* width: auto;
     height: auto; */
 
@@ -42,7 +42,7 @@ export const ImageBox = styled.div`
     height: 68.9px;
   }
 
-  @media ${devices.mobileL} {
+  @media ${devices.extraSmall} {
     margin-top: 1rem;
 
     width: 120px;
