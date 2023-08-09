@@ -6,7 +6,7 @@ export const HomeContainer = styled.main`
 
   padding: 0 10rem;
 
-  @media ${devices.mobileL} {
+  @media ${devices.extraSmall} {
     display: flex;
     flex-direction: column;
     gap: 3rem;
@@ -14,7 +14,22 @@ export const HomeContainer = styled.main`
     margin-top: 3rem;
 
     padding: 0 2rem;
+  }
 
+  @media ${devices.small} {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    margin-top: 3rem;
+
+    padding: 0 2rem;
+  }
+
+  @media ${devices.medium} {
+  }
+
+  @media ${devices.large} {
   }
 `;
 
@@ -37,21 +52,32 @@ export const HeaderContainer = styled.header`
     padding-top: 16px;
   }
 
-  @media ${devices.mobileL} {
+  @media ${devices.extraSmall} {
     position: relative;
     width: auto;
     height: auto;
 
     margin-top: auto;
   }
+
+  @media ${devices.small} {
+    position: relative;
+    width: auto;
+    height: auto;
+
+    margin-top: auto;
+  }
+
+  @media ${devices.large} {
+    position: fixed;
+
+    width: 25rem;
+    height: auto;
+  }
 `;
 
 export const HeaderMenu = styled.div`
-  display: flex;
-  flex-direction: column;
-
-  margin-top: 5rem;
-
+  
   button {
     width: 100px;
     height: 30px;
@@ -77,8 +103,7 @@ export const HeaderMenu = styled.div`
 
     font-size: large;
   }
-
-  @media ${devices.mobileL} {
+  @media ${devices.extraSmall} {
     display: flex;
     flex-direction: row;
 
@@ -95,6 +120,34 @@ export const HeaderMenu = styled.div`
       margin-left: 1rem;
     }
   }
+
+  @media ${devices.small} {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: left;
+
+    margin-top: 1rem;
+
+    button {
+      width: auto;
+      height: 30px;
+    }
+
+    button:not(:first-child) {
+      margin-left: 1rem;
+    }
+  }
+
+  @media ${devices.large} {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 5rem;
+  }
+  button:first-child {
+      margin-left: 1rem;
+    }
 `;
 
 export const SocialMedia = styled.div`
@@ -113,8 +166,14 @@ export const SocialMedia = styled.div`
     color: #ffffff;
   }
 
-  @media ${devices.mobileL} {
+  @media ${devices.extraSmall} {
     margin-top: 1rem;
+  }
+  @media ${devices.small} {
+    margin-top: 1rem;
+  }
+  @media ${devices.large} {
+    margin-top: 10rem;
   }
 `;
 export const RightSide = styled.div`
@@ -127,10 +186,23 @@ export const RightSide = styled.div`
   /* border: 1px solid pink;
   background: white; */
 
-  @media ${devices.mobileL} {
+  @media ${devices.extraSmall} {
     width: auto;
     height: auto;
 
     margin-left: 0;
+  }
+
+  @media ${devices.small} {
+    width: auto;
+    height: auto;
+
+    margin-left: 0;
+  }
+
+  @media ${devices.large} {
+    height: auto;
+
+    margin-left: auto;
   }
 `;
