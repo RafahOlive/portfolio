@@ -3,6 +3,7 @@ const sizes = {
     small: '600px',
     medium: '768px',
     large: '1024px',
+    extraLarge: '1200px',
   };
 
   export const devices = {
@@ -10,4 +11,5 @@ const sizes = {
     small: `only screen and (min-width: ${sizes.small})`,
     medium: `only screen and (min-width: ${sizes.medium})`,
     large: `only screen and (min-width: ${sizes.large})`,
+    extraLarge: `only screen and (min-width: ${sizes.extraLarge})`,
   };

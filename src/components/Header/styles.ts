@@ -29,7 +29,10 @@ export const HomeContainer = styled.main`
   @media ${devices.medium} {
   }
 
-  @media ${devices.large} {
+  @media ${devices.extraLarge} {
+    margin-top: 5rem;
+
+    padding: 0 9rem;
   }
 `;
 
@@ -77,7 +80,6 @@ export const HeaderContainer = styled.header`
 `;
 
 export const HeaderMenu = styled.div`
-  
   button {
     width: 100px;
     height: 30px;
@@ -146,8 +148,8 @@ export const HeaderMenu = styled.div`
     margin-top: 5rem;
   }
   button:first-child {
-      margin-left: 1rem;
-    }
+    margin-left: 1rem;
+  }
 `;
 
 export const SocialMedia = styled.div`
@@ -201,6 +203,7 @@ export const RightSide = styled.div`
   }
 
   @media ${devices.large} {
+    width: 33rem;
     height: auto;
 
     margin-left: auto;
