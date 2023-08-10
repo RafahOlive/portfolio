@@ -3,7 +3,7 @@ import { Experience } from "../../pages/Experience";
 import { Projects } from "../../pages/Projects";
 import { useState } from "react";
 import { Fade } from "react-awesome-reveal";
-import { GithubLogo, LinkedinLogo } from "@phosphor-icons/react";
+import { SiLinkedin, SiGithub } from "react-icons/si";
 import { HeaderContainer, HeaderMenu, HomeContainer, RightSide, SocialMedia } from "./styles";
 
 export function Header() {
@@ -44,11 +44,11 @@ export function Header() {
             href="https://www.linkedin.com/in/rafaelribeirodev/"
             target="_blank"
           >
-            <LinkedinLogo size={24} />
+            <SiLinkedin size={24} />
           </a>
 
           <a href="https://github.com/RafahOlive" target="_blank">
-            <GithubLogo size={24} />
+            <SiGithub size={24} />
           </a>
         </SocialMedia>
       </HeaderContainer>

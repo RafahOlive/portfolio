@@ -37,6 +37,9 @@ export const HomeContainer = styled.main`
 `;
 
 export const HeaderContainer = styled.header`
+  display: flex;
+  flex-direction: column;
+
   position: fixed;
 
   width: 33rem;
@@ -93,8 +96,6 @@ export const HeaderMenu = styled.div`
     color: #64748b;
     text-align: left;
 
-    margin-top: 1rem;
-
     transition: 0.1s;
   }
 
@@ -108,36 +109,34 @@ export const HeaderMenu = styled.div`
   @media ${devices.extraSmall} {
     display: flex;
     flex-direction: row;
+    gap: 10px;
 
     justify-content: left;
 
     margin-top: 1rem;
 
+    order: 1;
+
     button {
       width: auto;
       height: 30px;
-    }
-
-    button:not(:first-child) {
-      margin-left: 1rem;
     }
   }
 
   @media ${devices.small} {
     display: flex;
     flex-direction: row;
+    gap: 10px;
 
     justify-content: left;
 
     margin-top: 1rem;
 
+    order: 1;
+
     button {
       width: auto;
       height: 30px;
-    }
-
-    button:not(:first-child) {
-      margin-left: 1rem;
     }
   }
 
@@ -145,10 +144,9 @@ export const HeaderMenu = styled.div`
     display: flex;
     flex-direction: column;
 
-    margin-top: 5rem;
-  }
-  button:first-child {
-    margin-left: 1rem;
+    margin-top: 5.4rem;
+
+    order: 0;
   }
 `;
 
@@ -170,9 +168,11 @@ export const SocialMedia = styled.div`
 
   @media ${devices.extraSmall} {
     margin-top: 1rem;
+    order: 0;
   }
   @media ${devices.small} {
     margin-top: 1rem;
+    order: 0;
   }
   @media ${devices.large} {
     margin-top: 10rem;
