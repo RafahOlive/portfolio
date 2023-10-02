@@ -32,7 +32,7 @@ export function Header() {
     <HomeContainer>
       <HeaderContainer>
           <h1>Rafael Ribeiro</h1>
-          <h2>Desenvolvedor Frontend e Engenheiro de Software</h2>
+          <h3>Desenvolvedor Frontend e Engenheiro de Software</h3>
           <p>Crio sites responsivos, soluções web e alguns jogos 🎮</p>
         <HeaderMenu>
           <button onClick={handelSetAbout}>Sobre</button>

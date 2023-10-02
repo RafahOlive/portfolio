@@ -33,6 +33,9 @@ export const HomeContainer = styled.main`
     margin-top: 5rem;
 
     padding: 0 9rem;
+
+    /* position: fixed; */
+    /* left: 20px; */
   }
 `;
 
@@ -40,17 +43,15 @@ export const HeaderContainer = styled.header`
   display: flex;
   flex-direction: column;
 
-  position: fixed;
-
   width: 33rem;
   height: auto;
 
   h1,
-  h2 {
+  h3 {
     color: #e2e8f0;
   }
 
-  h2 {
+  h3 {
     padding-top: 12px;
   }
 
@@ -76,6 +77,7 @@ export const HeaderContainer = styled.header`
 
   @media ${devices.large} {
     position: fixed;
+    left: 20%;
 
     width: 25rem;
     height: auto;
@@ -206,6 +208,8 @@ export const RightSide = styled.div`
     width: 33rem;
     height: auto;
 
-    margin-left: auto;
+    /* margin-left: auto; */
+    position: fixed;
+    left: 50%;
   }
 `;

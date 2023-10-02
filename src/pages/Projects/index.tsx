@@ -68,7 +68,7 @@ export function Projects() {
           <TechBox>
             <TechBubble name="React" />
             <TechBubble name="Typescript" />
-            <TechBubble name="Stiches" />
+            <TechBubble name="Stitches" />
             <TechBubble name="Nextjs" />
             <TechBubble name="Stripe" />
             <TechBubble name="Axios" />
