@@ -12,6 +12,39 @@ import {
 export function Projects() {
   return (
     <Container>
+      {/* Ecommerce */}
+      <MainBox>
+        <ImageBox>
+          <img src={todo} sizes="16px" alt="Jogo da velha" />
+        </ImageBox>
+        <TextBox>
+          <h3>Jogo da velha</h3>
+          <p>Um jogo clássico para você se duvertir com seus amigos.</p>
+          <LinkBox>
+            <a
+              href="https://rafaholive.github.io/jogo-da-velha"
+              target="_blank"
+            >
+              Projeto
+            </a>
+            <a
+              href="https://github.com/RafahOlive/jogo-da-velha"
+              target="_blank"
+            >
+              Repositorio
+            </a>
+          </LinkBox>
+          <TechBox>
+            <TechBubble name="Jogo" />
+            <TechBubble name="React" />
+            <TechBubble name="Typescript" />
+            <TechBubble name="Vite" />
+            <TechBubble name="Responsivo" />
+          </TechBox>
+        </TextBox>
+      </MainBox>
+
+      {/* Ecommerce */}
       <MainBox>
         <ImageBox>
           <img src={todo} sizes="16px" alt="lista de tarefas" />
@@ -43,7 +76,6 @@ export function Projects() {
       </MainBox>
 
       {/* Ecommerce */}
-
       <MainBox>
         <ImageBox>
           <img src={todo} sizes="16px" alt="E-commerce" />
