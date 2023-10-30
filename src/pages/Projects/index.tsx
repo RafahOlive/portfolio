@@ -19,7 +19,7 @@ export function Projects() {
         </ImageBox>
         <TextBox>
           <h3>Jogo da velha</h3>
-          <p>Um jogo clássico para você se duvertir com seus amigos.</p>
+          <p>Um jogo clássico para você se divertir com seus amigos.</p>
           <LinkBox>
             <a
               href="https://rafaholive.github.io/jogo-da-velha"
