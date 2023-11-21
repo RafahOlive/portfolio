@@ -22,12 +22,8 @@ export const MainBox = styled.div`
   }
 
   @media ${devices.extraSmall} {
-    /* width: auto;
-    height: auto; */
-
     display: flex;
     flex-direction: column;
-    order: 2;
   }
 `;
 

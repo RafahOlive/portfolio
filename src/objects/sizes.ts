@@ -1,15 +1,15 @@
 const sizes = {
-    extraSmall: '600px',
-    small: '600px',
-    medium: '768px',
-    large: '1024px',
-    extraLarge: '1200px',
+    extraSmall: '640px',
+    small: '768px',
+    medium: '1024px',
+    large: '1280px',
+    extraLarge: '1536px',
   };
 
   export const devices = {
-    extraSmall: `only screen and (max-width: ${sizes.extraSmall})`,
-    small: `only screen and (min-width: ${sizes.small})`,
-    medium: `only screen and (min-width: ${sizes.medium})`,
-    large: `only screen and (min-width: ${sizes.large})`,
-    extraLarge: `only screen and (min-width: ${sizes.extraLarge})`,
+    extraSmall: `(min-width: ${sizes.extraSmall})`,
+    small: `(min-width: ${sizes.small})`,
+    medium: `(min-width: ${sizes.medium})`,
+    large: `(min-width: ${sizes.large})`,
+    extraLarge: `(min-width: ${sizes.extraLarge})`,
   };

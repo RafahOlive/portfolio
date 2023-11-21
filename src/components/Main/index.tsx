@@ -4,9 +4,15 @@ import { Projects } from "../../pages/Projects";
 import { useState } from "react";
 import { Fade } from "react-awesome-reveal";
 import { SiLinkedin, SiGithub } from "react-icons/si";
-import { HeaderContainer, HeaderMenu, HomeContainer, RightSide, SocialMedia } from "./styles";
+import {
+  HeaderContainer,
+  HeaderMenu,
+  HomeContainer,
+  RightSide,
+  SocialMedia,
+} from "./styles";
 
-export function Header() {
+export function Main() {
   const [about, setAbout] = useState(false);
   const [experience, setExperience] = useState(false);
   const [projects, setProjects] = useState(false);
@@ -31,14 +37,10 @@ export function Header() {
   return (
     <HomeContainer>
       <HeaderContainer>
-          <h1>Rafael Ribeiro</h1>
-          <h3>Desenvolvedor Frontend e Engenheiro de Software</h3>
-          <p>Crio sites responsivos, soluções web e alguns jogos 🎮</p>
-        <HeaderMenu>
-          <button onClick={handelSetAbout}>Sobre</button>
-          <button onClick={handleSetExperience}>Experiência</button>
-          <button onClick={handleSetProjects}>Projetos</button>
-        </HeaderMenu>
+        <h1>Rafael Ribeiro</h1>
+        <h3>Desenvolvedor Frontend e Engenheiro de Software</h3>
+        <p>Crio sites responsivos, soluções web e alguns jogos 🎮</p>
+
         <SocialMedia>
           <a
             href="https://www.linkedin.com/in/rafaelribeirodev/"
@@ -51,6 +53,12 @@ export function Header() {
             <SiGithub size={24} />
           </a>
         </SocialMedia>
+
+        <HeaderMenu>
+          <button onClick={handelSetAbout}>Sobre</button>
+          <button onClick={handleSetExperience}>Experiência</button>
+          <button onClick={handleSetProjects}>Projetos</button>
+        </HeaderMenu>
       </HeaderContainer>
 
       <RightSide>
