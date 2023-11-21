@@ -51,66 +51,6 @@ export function About() {
       <Paragraph>
         Hoje estou me especializando fortemente em <b>React</b> e Javascript
       </Paragraph>
-      <Paragraph>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat est
-        dolor, pariatur quae rerum odit suscipit expedita modi in ipsam sed, ex
-        voluptatum, unde totam deleniti doloribus corrupti nostrum? Ratione.
-      </Paragraph>
-      <Paragraph>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat est
-        dolor, pariatur quae rerum odit suscipit expedita modi in ipsam sed, ex
-        voluptatum, unde totam deleniti doloribus corrupti nostrum? Ratione.
-      </Paragraph>
-      <Paragraph>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat est
-        dolor, pariatur quae rerum odit suscipit expedita modi in ipsam sed, ex
-        voluptatum, unde totam deleniti doloribus corrupti nostrum? Ratione.
-      </Paragraph>
-      <Paragraph>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat est
-        dolor, pariatur quae rerum odit suscipit expedita modi in ipsam sed, ex
-        voluptatum, unde totam deleniti doloribus corrupti nostrum? Ratione.
-      </Paragraph>
-      <Paragraph>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat est
-        dolor, pariatur quae rerum odit suscipit expedita modi in ipsam sed, ex
-        voluptatum, unde totam deleniti doloribus corrupti nostrum? Ratione.
-      </Paragraph>
-      <Paragraph>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat est
-        dolor, pariatur quae rerum odit suscipit expedita modi in ipsam sed, ex
-        voluptatum, unde totam deleniti doloribus corrupti nostrum? Ratione.
-      </Paragraph>
-      <Paragraph>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat est
-        dolor, pariatur quae rerum odit suscipit expedita modi in ipsam sed, ex
-        voluptatum, unde totam deleniti doloribus corrupti nostrum? Ratione.
-      </Paragraph>
-      <Paragraph>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat est
-        dolor, pariatur quae rerum odit suscipit expedita modi in ipsam sed, ex
-        voluptatum, unde totam deleniti doloribus corrupti nostrum? Ratione.
-      </Paragraph>
-      <Paragraph>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat est
-        dolor, pariatur quae rerum odit suscipit expedita modi in ipsam sed, ex
-        voluptatum, unde totam deleniti doloribus corrupti nostrum? Ratione.
-      </Paragraph>
-      <Paragraph>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat est
-        dolor, pariatur quae rerum odit suscipit expedita modi in ipsam sed, ex
-        voluptatum, unde totam deleniti doloribus corrupti nostrum? Ratione.
-      </Paragraph>
-      <Paragraph>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat est
-        dolor, pariatur quae rerum odit suscipit expedita modi in ipsam sed, ex
-        voluptatum, unde totam deleniti doloribus corrupti nostrum? Ratione.
-      </Paragraph>
-      <Paragraph>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat est
-        dolor, pariatur quae rerum odit suscipit expedita modi in ipsam sed, ex
-        voluptatum, unde totam deleniti doloribus corrupti nostrum? Ratione.
-      </Paragraph>
     </>
   );
 }
