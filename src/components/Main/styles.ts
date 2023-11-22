@@ -3,13 +3,18 @@ import { devices } from "../../objects/sizes";
 
 export const HomeContainer = styled.main`
   width: 100%;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* padding-left: 1rem;
+  padding-right: 1rem; */
 
   padding-top: 3rem;
 
   display: flex;
   flex-direction: column;
+
+  justify-content: center;
 
   @media ${devices.extraSmall} {
     max-width: 640px;
@@ -94,7 +99,7 @@ export const HeaderMenu = styled.div`
     flex-direction: row;
     gap: 10px;
 
-    justify-content: left;
+    /* justify-content: left; */
 
     margin-top: 1rem;
     button {
@@ -108,7 +113,7 @@ export const HeaderMenu = styled.div`
     flex-direction: row;
     gap: 10px;
 
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     button {
       width: auto;
       height: 30px;
