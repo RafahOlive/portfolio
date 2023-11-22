@@ -1389,8 +1389,8 @@ gap: 2rem;
   margin-left: auto;
   margin-right: auto;
 
-  /* padding-left: 1rem;
-  padding-right: 1rem; */
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 
   padding-top: 3rem;
 
