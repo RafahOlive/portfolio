@@ -58,6 +58,11 @@ export function Main() {
           <button onClick={handelSetAbout}>Sobre</button>
           <button onClick={handleSetExperience}>Experiência</button>
           <button onClick={handleSetProjects}>Projetos</button>
+          <button>
+            <a href="portfolio/Currículo.pdf" target="_blank">
+              Baixar Curriculo
+            </a>
+          </button>
         </HeaderMenu>
       </HeaderContainer>
 

@@ -6,10 +6,9 @@ export const HomeContainer = styled.main`
   margin-left: auto;
   margin-right: auto;
 
+  padding-top: 3rem;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-
-  padding-top: 3rem;
 
   display: flex;
   flex-direction: column;
@@ -73,7 +72,10 @@ export const HeaderMenu = styled.div`
 
   margin-top: 2rem;
 
-  button {
+  text-align: center;
+    vertical-align: center;
+
+  button, a {
     width: fit-content;
     background: none;
     border: none;
@@ -82,12 +84,11 @@ export const HeaderMenu = styled.div`
     font-family: "IBM Plex Sans";
     font-size: medium;
     color: #64748b;
-    text-align: left;
 
     transition: 0.1s;
   }
 
-  button:hover {
+  button:hover, a:hover {
     background: none;
 
     color: #ffffff;
@@ -98,8 +99,6 @@ export const HeaderMenu = styled.div`
     display: flex;
     flex-direction: row;
     gap: 10px;
-
-    /* justify-content: left; */
 
     margin-top: 1rem;
     button {
