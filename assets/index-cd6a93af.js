@@ -1389,10 +1389,9 @@ gap: 2rem;
   margin-left: auto;
   margin-right: auto;
 
+  padding-top: 3rem;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-
-  padding-top: 3rem;
 
   display: flex;
   flex-direction: column;
@@ -1452,7 +1451,10 @@ gap: 2rem;
 
   margin-top: 2rem;
 
-  button {
+  text-align: center;
+    vertical-align: center;
+
+  button, a {
     width: fit-content;
     background: none;
     border: none;
@@ -1461,12 +1463,11 @@ gap: 2rem;
     font-family: "IBM Plex Sans";
     font-size: medium;
     color: #64748b;
-    text-align: left;
 
     transition: 0.1s;
   }
 
-  button:hover {
+  button:hover, a:hover {
     background: none;
 
     color: #ffffff;
@@ -1477,8 +1478,6 @@ gap: 2rem;
     display: flex;
     flex-direction: row;
     gap: 10px;
-
-    /* justify-content: left; */
 
     margin-top: 1rem;
     button {
@@ -1540,7 +1539,7 @@ gap: 2rem;
   margin-top: 4rem;
   width: 100%;
   height: auto;
-`;function Yg(){const[e,t]=L.useState(!1),[n,r]=L.useState(!1),[o,i]=L.useState(!1);function l(){t(!0),r(!1),i(!1)}function a(){t(!1),r(!0),i(!1)}function s(){t(!1),r(!1),i(!0)}return S.jsxs(Ug,{children:[S.jsxs(Bg,{children:[S.jsx("h1",{children:"Rafael Ribeiro"}),S.jsx("h3",{children:"Desenvolvedor Frontend e Engenheiro de Software"}),S.jsx("p",{children:"Crio sites responsivos, soluções web e alguns jogos 🎮"}),S.jsxs(Hg,{children:[S.jsx("a",{href:"https://www.linkedin.com/in/rafaelribeirodev/",target:"_blank",children:S.jsx(Fg,{size:24})}),S.jsx("a",{href:"https://github.com/RafahOlive",target:"_blank",children:S.jsx(Dg,{size:24})})]}),S.jsxs(Vg,{children:[S.jsx("button",{onClick:l,children:"Sobre"}),S.jsx("button",{onClick:a,children:"Experiência"}),S.jsx("button",{onClick:s,children:"Projetos"})]})]}),S.jsx(Wg,{children:S.jsxs(Lg,{duration:1e3,children:[e&&S.jsx(Vh,{}),n&&S.jsx(Qh,{}),o&&S.jsx(Gh,{})]})})]})}const Qg=Bh`
+`;function Yg(){const[e,t]=L.useState(!1),[n,r]=L.useState(!1),[o,i]=L.useState(!1);function l(){t(!0),r(!1),i(!1)}function a(){t(!1),r(!0),i(!1)}function s(){t(!1),r(!1),i(!0)}return S.jsxs(Ug,{children:[S.jsxs(Bg,{children:[S.jsx("h1",{children:"Rafael Ribeiro"}),S.jsx("h3",{children:"Desenvolvedor Frontend e Engenheiro de Software"}),S.jsx("p",{children:"Crio sites responsivos, soluções web e alguns jogos 🎮"}),S.jsxs(Hg,{children:[S.jsx("a",{href:"https://www.linkedin.com/in/rafaelribeirodev/",target:"_blank",children:S.jsx(Fg,{size:24})}),S.jsx("a",{href:"https://github.com/RafahOlive",target:"_blank",children:S.jsx(Dg,{size:24})})]}),S.jsxs(Vg,{children:[S.jsx("button",{onClick:l,children:"Sobre"}),S.jsx("button",{onClick:a,children:"Experiência"}),S.jsx("button",{onClick:s,children:"Projetos"}),S.jsx("button",{children:S.jsx("a",{href:"portfolio/Currículo.pdf",target:"_blank",children:"Baixar Curriculo"})})]})]}),S.jsx(Wg,{children:S.jsxs(Lg,{duration:1e3,children:[e&&S.jsx(Vh,{}),n&&S.jsx(Qh,{}),o&&S.jsx(Gh,{})]})})]})}const Qg=Bh`
 *{
   margin: 0;
   padding: 0;
