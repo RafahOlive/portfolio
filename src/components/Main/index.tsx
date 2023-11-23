@@ -59,7 +59,7 @@ export function Main() {
           <button onClick={handleSetExperience}>Experiência</button>
           <button onClick={handleSetProjects}>Projetos</button>
           <button>
-            <a href="rafaholive.github.io/portfolio/Currículo.pdf" target="_blank">
+            <a href="https://rafaholive.github.io/portfolio/Currículo.pdf" target="_blank">
               Baixar Curriculo
             </a>
           </button>
